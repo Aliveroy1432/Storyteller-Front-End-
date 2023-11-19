@@ -1,0 +1,144 @@
+*{
+    font-family: "gilroy";
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+  
+}
+#main{
+    width: 100%;
+    
+}
+ #heading{
+    width: 100%;
+    height: 40vh;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+}
+#heading h1{
+    font-size: 45px;
+}
+#heading h1:hover{
+    color: rgb(236, 105, 127);
+}
+#link a:hover {
+    background-color: pink;
+  }
+#heading p{
+    text-align: center;
+    margin: 20px 0px;
+    width: 50%;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #F7F6EE;
+    padding: 0 4vw;
+    /* sticky navbar */
+    position: sticky;
+    z-index: 2;
+    top: 0; 
+}
+#nav h3{
+    font-weight: 300;
+    text-transform: uppercase;
+}
+#nav h3 span{
+    font-weight: 900;
+}
+#nav #link{
+    display: flex;
+    gap: 18px;
+}
+#link a{
+    text-decoration: none;
+    font-weight: 300;
+    font-family: "Voyage";
+    font-size: 20px;
+    color: #232323;
+}
+
+#heading button{
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+}
+#heading button:hover{
+    background-color: rgb(236, 105, 127);;
+  
+}
+
+#illus {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+#illus img{
+    /* border: 2px solid blue; */
+    width: 70%;
+    box-shadow: 0 0 8px 8px white inset;
+}
+
+#details{
+    height: 60vh;
+    display: flex;
+   justify-content: space-between;
+    margin-top: 95px;
+    width: 100%;   
+}
+
+#dleft{ 
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px 45px;
+    width: 50%;
+    border-right: 2px solid black;    
+}
+
+#dleft p{
+    width: 80%;
+    margin-top: 5px;
+    padding-left: 10px;
+    /* border-left: 2px solid black; */
+}
+
+#dleft #line{
+    width: 170px;
+    height: 2px;
+    background-color: black;
+ }
+#dright{
+    width: 49%;
+}
+
+#dright .features{
+    padding-left: 0px;
+    padding: 0px 45px;
+}
+
+#dleft h1{
+    line-height: 33px;
+    margin-bottom: 5px;
+}
+
+#dright #line{
+    margin-top: 5px;
+    width: 600px;
+    height: 2px;
+    background-color: black;
+}
+
